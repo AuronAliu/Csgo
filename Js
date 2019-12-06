@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<head>
+	<title>FP CREATIONS</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		
+
+		.discord{
+			width: 30px;
+		}
+
+		#v1{
+			width: 555%;
+			height:120px;
+		}
+
+		#video{
+
+		width: 19%;
+			position: absolute;
+			top: 3%;
+			left: -301%;
+			display: inline-block;
+			border-radius: 12px;
+
+		}
+			#fallen{
+			width: 15%;
+			position: absolute;
+			top: 37%;
+			left: 37%;
+		}
+
+		#diskordi{
+			width: 84%;
+				position: absolute;
+			top: 3%;
+			left: 133%;
+			display: inline-block;
+			border-radius: 0px;
+			text-decoration: none;
+			background-color: none;
+
+
+		}
+
+		#kryesori{
+				width: 19%;
+			position: absolute;
+			top: 27%;
+			left: 27%;
+			display: inline-block;
+			border-radius: 12px;
+		}
+			#kryesori2{
+				width: 19%;
+			position: absolute;
+			top: 27%;
+			left: 58%;
+			display: inline-block;
+			
+
+		}
+
+		#titullip{
+			position: absolute;
+			top: 17%;
+			left: 43%;
+			display: inline-block;
+			color:#007bff;
+		}
+		#cursor{
+			cursor: pointer;
+		}
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
+
+function myFunction() {
+  alert("This topic is coming soon!.");
+}
+
+</script> 
+<!--bootstrapi
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="	sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+</head>
+<body>
+ <header> 
+		<div class="main" >
+			<div class="logo">
+				
+				<img src="logo.png">
+			</div>
+			<ul>
+				<li class="active"><a href="testtest.html">Home</a></li>
+				
+				<li><a href="support.html">Support</a></li>
+				
+				<li><a href="about.html">About</a></li>
+				
+				<li><a id="flip" href="#">Services<img src="arrow.png" class="arrow" ></a></li>   
+
+				<div id="panel"><ul>
+					<li><a href="cfg.html">Crosshair  </a></li><br><br>
+					<li><a href="register.html">Login & Register </a></li><br><br>
+					<li><a onclick="myFunction()"  id="cursor" >Comands</a></li><br><br>
+				</ul></div>
+
+			</ul>
+		</div>
+
+				
+		<div id="kryesori">
+		
+<div class="x-column x-sm x-1-3" style="padding: 0px; background-color:hsla(0, 0%, 0%, 0);">
+	<div class="x-promo man" style="color:white;height: 80%;width: 80%;background-color: #2C3E50;border: solid #38414C;">
+		<div class="x-promo-image-wrap">
+			<img src="lidi.jpg" style="width: 100%"></div>
+			<div class="x-promo-content">
+<h1 class="h2 man" style="color:white; font-size: 1.4em;">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/512px-Flag_of_Kosovo.svg.png" style="height: 15px; width: 20px; vertical-align: 0.5px" title=""> LID.</h1>
+<h2 class="h5 man" style="color:white; font-size: 1.4em;"><img src="https://prosettings.net/icons/mibr-logo.svg" style="height: 20px; width: 20px; vertical-align: 0.5px" title=""> MIBR</h2>
+
+<hr class="x-gap" style="margin: 1px 0 0 0;">
+
+<p class="man">Florid “LID.” Pirraku was born on March 27, 2004 and is currently playing for chill as an AWPer.</p>
+
+<hr class="x-gap" style="margin: 1px 0 0 0;">
+
+  
+  
+     	 </a></div>
+
+ 
+
+</div>
+</div>
+</div>
+ 
+<br>
+			<div id="kryesori2">
+		<div class="x-column x-sm x-1-3" style="padding: 0px; background-color:hsla(0, 0%, 0%, 0);">
+	<div class="x-promo man" style="color:white;height: 80%;width: 80%;background-color: #2C3E50;border: solid #38414C;">
+		<div class="x-promo-image-wrap">
+			<img src="fotoo.jpg" style="width: 100%"></div>
+			<div class="x-promo-content">
+<h1 class="h2 man" style="color:white; font-size: 1.4em;">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/512px-Flag_of_Kosovo.svg.png" style="height: 15px; width: 20px; vertical-align: 0.5px" title=""> Macho</h1>
+<h2 class="h5 man" style="color:white; font-size: 1.4em;"><img src="https://prosettings.net/icons/mibr-logo.svg" style="height: 20px; width: 20px; vertical-align: 0.5px" title=""> Navi</h2>
+
+<hr class="x-gap" style="margin: 1px 0 0 0;">
+
+<p class="man">Auron “Macho” Aliu was born on february 15th, 2004 and is currently playing for chill as an AWPer.</p>
+
+<hr class="x-gap" style="margin: 1px 0 0 0;">
+
+			</div>
+		</div>
+</div>
+
+
+<div id="diskordi">
+<section class="box" data-box-identifier="com.woltlab.wcf.genericBox24">
+		
+			<h2 class="boxTitle">
+						<h2 style=" color:#8c9eff;">	Discord	<img src="discordl.png" class="discord">				</h2>
+		
+	<div class="boxContent">
+		<iframe src="https://discordapp.com/widget?id=398934975896092673&amp;theme=dark" width="100%" height="300" allowtransparency="true" frameborder="-10"></iframe>	</div>
+</section>
+</div>
+
+
+<div id="video">
+<img src="live.png" style="width: 55px">
+<video id="v1" width="400" controls autoplay>
+  <source src="csgov.mp4" type="video/mp4">
+ 
+</video>
+<video id="v1" width="400" controls autoplay>
+  <source src="csgov.mp4" type="video/mp4">
+ 
+</video>
+	<video id="v1" width="400" controls autoplay>
+  <source src="csgov.mp4" type="video/mp4">
+ 
+</video>
+	
+</div>
+</div>
+
+ </header>
+</body>
+</html>
